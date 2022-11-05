@@ -1,0 +1,37 @@
+[
+    {
+        "key":0,
+        "name":"개발서버",
+        "api":"https://nxtcorp.enbrixcloud.com:8000/login",
+        "state":-1,
+        "web":"https://nxtcorp.enbrixcloud.com:3000",
+        "ipv4":"115.22.113.240"
+    },
+
+    {
+        "key":1,
+        "name":"엔엑스테크놀로지",
+        "api":"https://enbrixcloud.com:8000/login",
+        "state":-1,
+        "web":"https://enbrixcloud.com:3000",
+        "ipv4":"13.124.151.37"
+    },
+    
+    {
+        "key":2,
+        "name":"동의대학교",
+        "api":"https://134.75.226.140:8000/login",
+        "state":-1,
+        "web":"https://134.75.226.140:3000",
+        "ipv4":"134.75.226.140"
+    },
+    
+    {
+        "key":3,
+        "name":"광주대학교",
+        "api":"https://enbrix.gwangju.ac.kr:8000/login",
+        "state":-1,
+        "web":"https://enbrix.gwangju.ac.kr:3000",
+        "ipv4":"220.69.34.68"
+    }
+]

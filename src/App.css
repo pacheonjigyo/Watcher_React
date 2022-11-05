@@ -1,0 +1,140 @@
+.App-logo {
+  padding: 16px;
+  padding-bottom: 20px;
+}
+
+.App-trigger {
+  padding: 25px;
+  padding-left: 22px;
+}
+
+.App-header {
+  color: #afabaa;
+
+  font-size: large;
+  
+  background-color: #00152a;
+
+  display: flex;
+}
+
+.App-main {
+  padding: 10px;
+
+  color: #afabaa;
+
+  font-size: large;
+
+  background-color: #00152a;
+}
+
+.App-content {
+  align-content: center;
+
+  width: 100%;
+  
+  padding: 10px;
+
+  font-size: large;
+
+  display: flex;
+
+  background-color: #dce6f0;
+}
+
+.App-layout {
+  background-color: white;
+  border-radius: 15px;
+
+  min-height: 100vh;
+}
+
+.App-sublayout {
+  background-color: white;
+
+  font-size: large;
+  font-weight: normal;
+
+  height: 375px;
+
+  border-radius: 5px;
+  
+  padding: 20px;
+
+  box-shadow: 0px 1px 2px gray;
+}
+
+.App-chart{
+  width: 100%;
+  
+  margin: 5px;
+}
+
+.App-table {
+  font-size: large;
+
+  color: black;
+
+  background-color: white;
+
+  border-radius: 5px;
+
+  width: 100%;
+
+  margin: 15px;
+  padding: 20px;
+
+  box-shadow: 0px 1px 2px gray;
+}
+
+.App-pc {
+  display: list-item;
+  list-style: none;
+}
+
+.App-mobile {
+  display: none;
+}
+
+.App-th {
+  padding: 10px;
+
+  font-size: small;
+  font-weight: normal;
+}
+
+.App-td {
+  padding: 10px;
+
+  font-size: small;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 1200px) {
+  .App-chart{
+    margin: 0px;
+  }
+
+  .App-pc {
+    display: none;
+  }
+
+  .App-mobile {
+    display: list-item;
+    list-style: none;
+  }
+
+  .App-th {
+    display: none;
+  }
+
+  .App-td {
+    width: 100%;
+
+    padding: 10px;
+    
+    display: list-item;
+
+    list-style: none;
+  }
+}
